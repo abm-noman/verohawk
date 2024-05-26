@@ -5,34 +5,17 @@
     --dark: #0E2E50;
 }
 
-/*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
+.navbar{
+    margin: auto;
+    padding: 20px;
 }
 
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
-}
-
-.my-6 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-}
-
-.py-6 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+.footer{
+    background-image: url("../img/9147451.jpg"); /* The image used */
+    opacity: 90%;
+    /* background-color: #9aa9ff; Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
